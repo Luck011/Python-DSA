@@ -1,0 +1,93 @@
+#Fatiamento de string
+
+r ='Lucas Ribeiro'
+
+print(r[:5])
+
+#Lucas
+
+-------------------
+r ='Lucas Ribeiro'
+
+print(r[5:])
+
+#Ribeiro
+-----------------------------
+#Salta a string
+
+r ='Lucas Ribeiro'
+
+print(r[::2])
+----------------------
+# operador de + usado para concatena a estring
+
+r ='Lucas Ribeiro'
+
+print(r + " é um estudante de Data Science")
+
+#Saída: Lucas Ribeiro é um estudante de Data Science
+-------------------
+# operador de * usado para concatena a estring
+
+letra ='W'
+
+print(letra * 3)
+
+#Saída: WWW
+---------------------------
+Para saber o tipo do dado
+
+print(type(5))
+
+print(type(5.2))
+
+print(type("a"))
+
+---------------------------
+# quando adicionamos . após a variavel uma lista dos metodos é mostrada
+nessa metodo upper transforma tudo em maiusculo.
+
+r="Lucas Ribeiro"
+
+print(r.upper())
+
+#Saída: LUCAS Ribeiro
+------------------------
+r="Lucas Ribeiro"
+
+print(r.split())
+
+--------------------
+r="Lucas Ribeiro"
+
+print(r.split("a"))
+------------------
+#Esse metodo converte a primeira letra para maiuscula
+
+r="Lucas Ribeiro"
+
+print(r.capitalize())
+------------------
+#conta quantas letra i que na minha string
+
+r="Lucas Ribeiro"
+
+print(r.count("i"))
+
+#Saída: 2
+----------------------
+Comparação
+
+r="Lucas Ribeiro"
+
+print(r == "Lucas Ribeiro")
+
+#Saída: True
+----------------------
+Comparação
+
+r="Lucas Ribeiro"
+
+print(r == "Lucas")
+
+#Saída: False
