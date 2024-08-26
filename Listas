@@ -1,0 +1,35 @@
+#lista em Python é identificada e criada usando colchetes [ ]
+
+lista_1 = ["arroz, frango, tomate, leite"]
+
+print(lista_1)
+
+--------------------
+lista_3 = [20, 90, "Data Science"]
+
+print(lista_3)
+--------------------
+#Indexação
+
+lista_3 = [20, 90, "Data Science"]
+
+item1 = lista_3[0]
+item2 = lista_3[1]
+item3 = lista_3[2]
+
+print(item1, item2, item3)
+--------------------------
+#alterando um item
+
+lista_1 = ["arroz", "frango", "tomate", "leite"]
+lista_1 [1] = "macarrão"
+
+print(lista_1)
+-------------------------
+#deletando um item da lista utilizando a palavra reservada del
+
+lista_1 = ["arroz", "frango", "tomate", "leite"]
+lista_1 [1] = "macarrão"
+del lista_1[2]
+
+print(lista_1)
